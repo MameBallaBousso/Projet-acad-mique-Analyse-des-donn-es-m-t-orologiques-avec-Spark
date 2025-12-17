@@ -1,7 +1,7 @@
 # Projet-acad-mique-Analyse-des-donn-es-m-t-orologiques-avec-Spark
 
-📊 Analyse des données météorologiques et agricoles avec Spark
-👥 Membres du groupe
+ Analyse des données météorologiques avec Spark
+ 1. Membres du groupe
 
 Mame Balla Bousso
 
@@ -12,13 +12,10 @@ Samba Dieng
 Raherinasolo Ange Emilson Rayan
 
 Albert Zinaba
+2. Thème du projet: Analyse des données météorologiques avec Spark
 
-🎯 Thème du projet
-
-Analyse des données météorologiques avec Apache Spark et étude de leur impact sur les rendements agricoles au Sénégal
-
-🗂️ Sources des données
-🌦️ Données météorologiques
+ Sources des données
+ Données météorologiques
 
 Source : NASA Power
 
@@ -26,7 +23,7 @@ Contenu : données journalières de température
 
 Utilisation : analyse, apurement et transformation des données climatiques
 
-🌾 Données agricoles
+ Données agricoles
 
 Source : Sénégal Open Data
 
@@ -34,11 +31,11 @@ Contenu : rendements agricoles annuels par culture et par région
 
 Utilisation : analyse économétrique et mise en relation avec les variables climatiques
 
-🛠️ Technologies utilisées
+3. Technologies utilisées
 
 Apache Spark (PySpark)
 
-Python
+Darabricks
 
 Jupyter Notebook
 
@@ -46,11 +43,11 @@ Amazon S3 (stockage intermédiaire des données)
 
 Outils de visualisation (matplotlib, seaborn, etc.)
 
-📁 Organisation du projet
+ 4. Organisation du projet
 
 Le projet est structuré autour de trois notebooks principaux, chacun correspondant à une étape clé du pipeline de traitement et d’analyse des données.
 
-🔹 1. 01_ingestion_profiling_meteo.ipynb
+ 1. 01_ingestion_profiling_meteo.ipynb
 
 Téléchargement et ingestion de la base météorologique
 
@@ -88,9 +85,9 @@ Mise en place d’une modélisation économétrique en données de panel
 
 Analyse de l’impact des variables climatiques sur les rendements agricoles
 
-⚠️ Particularité : dans ce notebook, la base finale a été directement téléchargée après transformation puis mergée avec la base agricole.
+ Particularité : dans ce notebook, la base finale a été directement téléchargée après transformation puis mergée avec la base agricole.
 
-🔄 Gestion des données et interconnexion des notebooks
+ Gestion des données et interconnexion des notebooks
 
 À chaque étape clé, les données intermédiaires sont :
 
@@ -106,15 +103,15 @@ la traçabilité
 
 la séparation claire des étapes du projet
 
-📈 Résultats attendus
+ 5. Résultats attendus
 
 Une base de données consolidée combinant climat et agriculture
 
 Une analyse descriptive et visuelle des températures
 
 Une modélisation économétrique permettant d’évaluer l’impact des conditions météorologiques sur les rendements agricoles au Sénégal
-📊 Dashboard (Databricks)
-
+ Dashboard (Databricks)
+ 6. Dashboard
 Un dashboard interactif a été développé directement avec Databricks.
 
 Il comprend :
@@ -124,3 +121,11 @@ un onglet montrant l’évolution conjointe des variables économiques (rendemen
 des onglets dédiés à l’évolution des variables de température et autres indicateurs météorologiques.
 
 Le dashboard permet une lecture synthétique et visuelle des relations entre climat et agriculture.
+
+IMPORTANT: Nous avons donné accès à notre dashboard à la professeur à travers votre son (celui auquel le projet lui a été envoyé) 
+
+Le lien de la présentation :
+https://www.canva.com/design/DAG7nteyvig/P0heTa6O0hfa5S8o2txVAA/edit
+
+Le lien du dashboard:
+https://dbc-d4980fc8-599d.cloud.databricks.com/dashboardsv3/01f0d9cc63451eb19a9af32046f199df/published?o=4373123756109076
